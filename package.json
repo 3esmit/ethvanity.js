@@ -1,0 +1,25 @@
+{
+  "name": "ethvanity.js",
+  "version": "1.0.0",
+  "description": "Generate vanity addresses for ethereum",
+  "main": "ethvanity.js",
+  "scripts": {
+    "start": "node ethvanity.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3esmit/ethvanity.js.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "Ricardo Guilherme Schmidt",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/3esmit/ethvanity.js/issues"
+  },
+  "homepage": "https://github.com/3esmit/ethvanity.js#readme",
+  "dependencies": {
+    "ethereumjs-util": "5.0.1"
+  }
+}
