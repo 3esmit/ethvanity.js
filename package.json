@@ -1,6 +1,6 @@
 {
   "name": "ethvanity.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate vanity addresses for ethereum",
   "main": "ethvanity.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/3esmit/ethvanity.js#readme",
   "dependencies": {
+    "async": "^2.1.5",
     "ethereumjs-util": "5.0.1"
   }
 }
