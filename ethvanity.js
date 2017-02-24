@@ -6,7 +6,7 @@ var fs = require('fs');
 function searchVanityContractAddresses(vanity) {
     pkey = ethUtil.sha3(ethUtil.crypto.randomBytes(32));
     acc = ethUtil.privateToAddress(pkey).toString('hex');
-    contr = ethUtil.generateAddress(acc,0).toString('hex');
+    contr = ethUtil.generateAddress('0x'+acc,0).toString('hex');
     process.stdout.clearLine();
     process.stdout.cursorTo(0);
     process.stdout.write(''+acc+'->'+contr+' KEY '+pkey.toString('hex')+'');
